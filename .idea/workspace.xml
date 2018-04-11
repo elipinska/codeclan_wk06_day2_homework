@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="029b157d-20e9-4fcd-b6a1-fa6b20f66471" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/LibraryTest.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LibraryTest.java" afterPath="$PROJECT_DIR$/src/test/java/LibraryTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,8 +26,8 @@
           <file leaf-file-name="Library.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/Library.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+                <state relative-caret-position="161">
+                  <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#762#763#0" expanded="true" />
@@ -116,8 +113,8 @@
           <file leaf-file-name="LibraryTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/LibraryTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="308">
-                  <caret line="94" column="21" lean-forward="true" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+                <state relative-caret-position="348">
+                  <caret line="94" column="22" lean-forward="false" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#221#222#0" expanded="true" />
@@ -772,18 +769,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_LibraryHomework_test - 2018.04.11 at 09h 04m 09s.xml">
-      <configuration name="All in LibraryHomework_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_LibraryHomework_test - 2018.04.11 at 09h 04m 27s.xml">
-      <configuration name="All in LibraryHomework_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_LibraryHomework_test - 2018.04.11 at 09h 04m 41s.xml">
-      <configuration name="All in LibraryHomework_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_LibraryHomework_test - 2018.04.11 at 09h 05m 02s.xml">
-      <configuration name="All in LibraryHomework_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_LibraryHomework_test - 2018.04.11 at 09h 15m 39s.xml">
       <configuration name="All in LibraryHomework_test" configurationId="JUnit" />
     </history-entry>
@@ -800,6 +785,18 @@
       <configuration name="All in LibraryHomework_test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_LibraryHomework_test - 2018.04.11 at 09h 38m 59s.xml">
+      <configuration name="All in LibraryHomework_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_LibraryHomework_test - 2018.04.11 at 09h 41m 21s.xml">
+      <configuration name="All in LibraryHomework_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_LibraryHomework_test - 2018.04.11 at 09h 41m 31s.xml">
+      <configuration name="All in LibraryHomework_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_LibraryHomework_test - 2018.04.11 at 09h 41m 41s.xml">
+      <configuration name="All in LibraryHomework_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_LibraryHomework_test - 2018.04.11 at 09h 41m 59s.xml">
       <configuration name="All in LibraryHomework_test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -922,8 +919,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        <state relative-caret-position="161">
+          <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#762#763#0" expanded="true" />
@@ -938,8 +935,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="94" column="21" lean-forward="true" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+        <state relative-caret-position="348">
+          <caret line="94" column="22" lean-forward="false" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#221#222#0" expanded="true" />

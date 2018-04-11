@@ -92,6 +92,6 @@ public class LibraryTest {
         largerLibrary.addBook(new Book(GenreType.CRIME));
         largerLibrary.addBook(new Book(GenreType.BIOGRAPHY));
         assertEquals(8, largerLibrary.bookCount());
-        assertEquals(0, largerLibrary.getBooksByGenre().values());
+        assertEquals(5, largerLibrary.getBooksByGenre().size());
     }
 }
