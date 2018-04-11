@@ -26,8 +26,8 @@
           <file leaf-file-name="Library.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/Library.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="161">
-                  <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+                <state relative-caret-position="693">
+                  <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#762#763#0" expanded="true" />
@@ -113,8 +113,8 @@
           <file leaf-file-name="LibraryTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/LibraryTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="348">
-                  <caret line="94" column="22" lean-forward="false" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+                <state relative-caret-position="308">
+                  <caret line="95" column="22" lean-forward="false" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#221#222#0" expanded="true" />
@@ -769,9 +769,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_LibraryHomework_test - 2018.04.11 at 09h 15m 39s.xml">
-      <configuration name="All in LibraryHomework_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_LibraryHomework_test - 2018.04.11 at 09h 16m 11s.xml">
       <configuration name="All in LibraryHomework_test" configurationId="JUnit" />
     </history-entry>
@@ -797,6 +794,9 @@
       <configuration name="All in LibraryHomework_test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_LibraryHomework_test - 2018.04.11 at 09h 41m 59s.xml">
+      <configuration name="All in LibraryHomework_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_LibraryHomework_test - 2018.04.11 at 09h 43m 53s.xml">
       <configuration name="All in LibraryHomework_test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -919,8 +919,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        <state relative-caret-position="693">
+          <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#762#763#0" expanded="true" />
@@ -935,8 +935,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="94" column="22" lean-forward="false" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+        <state relative-caret-position="308">
+          <caret line="95" column="22" lean-forward="false" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#221#222#0" expanded="true" />
