@@ -1,6 +1,8 @@
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 import static org.junit.Assert.assertEquals;
 
 public class LibraryTest {
@@ -79,15 +81,17 @@ public class LibraryTest {
 
     @Test
     public void booksByGenreHasGenres() {
-        myLibrary.addBook(new Book(GenreType.GRAPHIC_NOVEL));
 
-
-        myLibrary.addBook(new Book(GenreType.SCIFI));
-        myLibrary.addBook(new Book(GenreType.SCIFI));
-        myLibrary.addBook(new Book(GenreType.BIOGRAPHY));
-        myLibrary.addBook(new Book(GenreType.YOUNG_ADULT));
-        myLibrary.addBook(new Book(GenreType.CRIME));
-        assertEquals(5, myLibrary.bookCount());
-        assertEquals(0, myLibrary.getBooksByGenre());
+        Library largerLibrary = new Library(15);
+        largerLibrary.addBook(new Book(GenreType.GRAPHIC_NOVEL));
+        largerLibrary.addBook(new Book(GenreType.SCIFI));
+        largerLibrary.addBook(new Book(GenreType.SCIFI));
+        largerLibrary.addBook(new Book(GenreType.BIOGRAPHY));
+        largerLibrary.addBook(new Book(GenreType.YOUNG_ADULT));
+        largerLibrary.addBook(new Book(GenreType.SCIFI));
+        largerLibrary.addBook(new Book(GenreType.CRIME));
+        largerLibrary.addBook(new Book(GenreType.BIOGRAPHY));
+        assertEquals(8, largerLibrary.bookCount());
+        assertEquals(0, largerLibrary.getBooksByGenre().values());
     }
 }
