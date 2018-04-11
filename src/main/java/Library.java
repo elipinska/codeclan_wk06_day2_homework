@@ -11,25 +11,24 @@ public class Library {
         this.collection = new ArrayList<>();
         this.capacity = capacity;
         this.booksByGenre = new HashMap<>();
-
-        updateStock();
         }
 
-    public void updateStock() {
+     public void increaseBooksByGenre(Book book) {
+         GenreType genre = book.getGenre();
+         if (!booksByGenre.containsKey(genre)) {
+             booksByGenre.put(genre, 0);
+         }
+         booksByGenre.put(genre, booksByGenre.get(genre) + 1);
+     }
 
-        booksByGenre.clear();
-
-        for (Book book:collection) {
-
-            GenreType genre = book.getGenre();
-
-           if (!booksByGenre.containsKey(genre)) {
-               booksByGenre.put(genre, 0);
-           }
-            booksByGenre.put(genre, booksByGenre.get(genre) + 1);
+    public void decreaseBooksByGenre(Book book) {
+        GenreType genre = book.getGenre();
+        if (!booksByGenre.containsKey(genre)) {
+            booksByGenre.put(genre, 0);
         }
-
+        booksByGenre.put(genre, booksByGenre.get(genre) - 1);
     }
+
 
     public int bookCount() {
         return collection.size();
@@ -39,7 +38,8 @@ public class Library {
 
         if (!stockFull()) {
             collection.add(newBook);
-            updateStock();
+
+            increaseBooksByGenre(newBook);
         }
     }
 
