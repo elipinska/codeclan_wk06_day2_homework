@@ -23,9 +23,6 @@ public class Library {
 
     public void decreaseBooksByGenre(Book book) {
         GenreType genre = book.getGenre();
-        if (!booksByGenre.containsKey(genre)) {
-            booksByGenre.put(genre, 0);
-        }
         booksByGenre.put(genre, booksByGenre.get(genre) - 1);
     }
 
@@ -49,7 +46,9 @@ public class Library {
 
     public Book lendBook() {
 
-        return this.collection.remove(0);
+        Book removedBook = this.collection.remove(0);
+        decreaseBooksByGenre(removedBook);
+        return removedBook;
     }
 
     public HashMap getBooksByGenre() {
